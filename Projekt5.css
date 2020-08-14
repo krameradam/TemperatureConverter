@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(247, 170, 27);
+}
+
+button {
+    padding: 10px 40px;
+    margin: 10px 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    background-color: rgb(247, 170, 27);
+    border: 2px solid rgb(221, 153, 25);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(221, 153, 25) ;
+    transition: transform .6s;
+}
+
+button:hover{
+    transform: scale(.94);
+}
+
+label {
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: white;
+}
+
+#converter {
+    font-size: 25px;
+}
+
+.result {
+    font-size: 30px;
+    color: white;
+}
